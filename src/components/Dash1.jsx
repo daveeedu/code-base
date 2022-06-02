@@ -1,5 +1,4 @@
 import React from 'react'
-import Dash from '../dashboard/Dash'
 import Dashboard from '../dashboard/Dashboard'
 
 const Dash1 = () => {

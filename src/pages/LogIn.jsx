@@ -49,7 +49,7 @@ const LogIn = () => {
                 e.preventDefault();
                 logInWithEmailAndPassword(auth, email, password);
                 setTimeout(() => {
-                  navigate("/DashRoutes");
+                  navigate("/Dash1");
                 }, 2000);
               }
               }>
@@ -82,7 +82,7 @@ const LogIn = () => {
                 <button className="btn btn-outline-primary hm-button-ggle mt-3" onClick={() => {
                   signInWithGoogle(auth, googleAuthProvider);
                   setTimeout(() => {
-                    navigate("/DashRoutes");
+                    navigate("/Dash1");
                   }, 2000);
                 }
                 }>

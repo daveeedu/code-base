@@ -38,7 +38,7 @@ const SignUp = () => {
   };
 
   return (
-    <div className="bg-info vh-100">
+    <div className="bg-info vh-100 ">
       <div className="container">
         <div className="row ">
           <div className="col-md-6 mx-auto my-5 ">

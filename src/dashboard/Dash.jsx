@@ -32,7 +32,7 @@ function Dash() {
                 <h1 className="text-center my-4 fw-bold"><span className="text-primary">logged</span> in<span className="text-success">as</span> </h1>
                 <h1 className="mb-3 fst-italic">{user.displayName}</h1>
                 <p className="mb-5">{user.email}</p>
-                <button className="btn btn-outline-primary hm-button" onClick={logout}>logout</button>
+                {/* <button className="btn btn-outline-primary hm-button" onClick={logout}>logout</button> */}
                 </div>
         </div>
     )

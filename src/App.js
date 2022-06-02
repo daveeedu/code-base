@@ -8,7 +8,6 @@ import Dash from './dashboard/Dash';
 import CoursesPage from './components/CoursesPage';
 import Dash1 from './components/Dash1';
 import courses from './data/Data';
-import DashRoutes from './dashboard/DashRoutes';
 import CourseDetails from './components/CourseDetails';
 
 function App() {
@@ -18,12 +17,11 @@ function App() {
           <Route exact path="/" element={<HomePage />} />
           <Route exact path="/login" element={<LogIn />} />
           <Route exact path="/signup" element={<SignUp />} />
-          <Route exact path="/DashRoutes" element={<Dash1 />} />
+          <Route exact path="/Dash1" element={<Dash1 />} />
           <Route exact path="/Dashboard" element={<Dashboard />} /> 
-          <Route exact path="/Dash" element={<Dash1 />} />
+          <Route exact path="/Dash" element={<Dash />} />
           <Route exact path="/CoursesPage" element={<CoursesPage data={courses}/>} />
           <Route exact path="/course/:id" element={<CourseDetails data={courses} />} />
-          <Route exact path="/ProfilePage" element={<Dash />} />
         </Routes>
     </div>
   );

@@ -1,9 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Dashboard from "../dashboard/Dashboard";
-import courses from "../data/Data";
-import CourseDetails from "./CourseDetails";
-
 const CoursesPage = ({data}) => {
   return (
     <div className="row bg-info">
